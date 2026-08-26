@@ -10,6 +10,7 @@ import { Roadmap } from "@/components/home/Roadmap";
 import { FAQAccordion } from "@/components/home/FAQAccordion";
 import { WelcomePopup } from "@/components/home/WelcomePopup";
 import { DeveloperSection } from "@/components/home/DeveloperSection";
+import { ShareButton } from "@/components/home/ShareButton";
 import { PERKS_DATA, Perk } from "@/data/perksData";
 import { motion } from "framer-motion";
 import { GitPullRequest } from "lucide-react";
@@ -227,6 +228,13 @@ export default function Home() {
               <GitPullRequest className="w-5 h-5" />
               Contribute / Add Perk
             </a>
+            <ShareButton 
+              title="StudentPerks India"
+              text="Unlock thousands of dollars in free developer tools & cloud credits curated for students!"
+              url="https://free-for-students.vercel.app"
+              variant="outline"
+              className="!px-5 !py-2.5 !rounded-full !bg-muted hover:!bg-primary hover:!text-primary-foreground border-border hover:!border-transparent"
+            />
           </div>
 
           <div className="max-w-md">

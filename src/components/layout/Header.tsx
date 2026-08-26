@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { Moon, Sun, Search, CheckSquare, Menu } from "lucide-react";
+import { ShareButton } from "@/components/home/ShareButton";
 
 export function Header({
   claimedCount,
@@ -58,6 +59,15 @@ export function Header({
               </span>
             )}
           </button>
+
+          <ShareButton 
+            title="StudentPerks India"
+            text="Unlock free developer tools & cloud credits!"
+            url="https://free-for-students.vercel.app"
+            variant="solid"
+            hideTextOnMobile={true}
+            className="!px-3 !py-1.5 !rounded-md !text-sm !font-medium"
+          />
 
           {mounted && (
             <button

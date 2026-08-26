@@ -4,6 +4,7 @@ import { Perk } from "@/data/perksData";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ExternalLink, ShieldAlert, BadgeCheck, Clock, CreditCard, Tag } from "lucide-react";
 import { useEffect } from "react";
+import { ShareButton } from "@/components/home/ShareButton";
 
 export function PerkModal({
   perk,
@@ -146,15 +147,24 @@ export function PerkModal({
 
             {/* Footer */}
             <div className="p-6 border-t border-border bg-muted/30">
-              <a
-                href={perk.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
-              >
-                Proceed to Official Portal
-                <ExternalLink className="w-5 h-5" />
-              </a>
+              <div className="flex flex-col sm:flex-row gap-3 w-full">
+                <a
+                  href={perk.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-[2] flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
+                >
+                  Proceed to Official Portal
+                  <ExternalLink className="w-5 h-5" />
+                </a>
+                <ShareButton 
+                  title={`Free Student Perk: ${perk.name}`}
+                  text={`Unlock ${perk.name} for free as a student!`}
+                  url="https://free-for-students.vercel.app" 
+                  variant="outline"
+                  className="flex-1"
+                />
+              </div>
             </div>
           </motion.div>
         </>
