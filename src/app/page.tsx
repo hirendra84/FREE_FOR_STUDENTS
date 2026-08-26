@@ -9,8 +9,10 @@ import { PerkModal } from "@/components/home/PerkModal";
 import { Roadmap } from "@/components/home/Roadmap";
 import { FAQAccordion } from "@/components/home/FAQAccordion";
 import { WelcomePopup } from "@/components/home/WelcomePopup";
+import { DeveloperSection } from "@/components/home/DeveloperSection";
 import { PERKS_DATA, Perk } from "@/data/perksData";
 import { motion } from "framer-motion";
+import { Github, GitPullRequest } from "lucide-react";
 
 export default function Home() {
   const [claimedPerks, setClaimedPerks] = useState<string[]>([]);
@@ -184,12 +186,36 @@ export default function Home() {
         />
         
         <FAQAccordion />
+        <DeveloperSection />
       </main>
 
       <footer className="border-t border-border bg-card py-12">
-        <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} StudentPerks India. Open Source Hub.</p>
-          <p className="text-sm mt-2">Not affiliated with GitHub, Microsoft, JetBrains, or any other listed providers.</p>
+        <div className="container mx-auto px-4 flex flex-col items-center text-center text-muted-foreground gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <a 
+              href="https://github.com/hirendra84/FREE_FOR_STUDENTS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors font-medium border border-border"
+            >
+              <Github className="w-5 h-5" />
+              Star on GitHub
+            </a>
+            <a 
+              href="https://github.com/hirendra84/FREE_FOR_STUDENTS/pulls"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-muted hover:bg-secondary hover:text-secondary-foreground transition-colors font-medium border border-border"
+            >
+              <GitPullRequest className="w-5 h-5" />
+              Contribute / Add Perk
+            </a>
+          </div>
+
+          <div className="max-w-md">
+            <p className="font-semibold text-foreground mb-1">© {new Date().getFullYear()} StudentPerks India. Open Source Hub.</p>
+            <p className="text-sm">Built to help students. Not affiliated with GitHub, Microsoft, JetBrains, or any other listed providers.</p>
+          </div>
         </div>
       </footer>
 
