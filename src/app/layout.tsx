@@ -17,6 +17,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "StudentPerks India | Developer Benefits Directory",
   description: "The Ultimate Student Developer Benefits Directory",
+  verification: {
+    google: "Rv1sZd8TcIXxvnWV7a0J621nwy6324QErfNW9jmjZc8",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
