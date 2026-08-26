@@ -20,9 +20,8 @@ export function PerkCard({
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
-      whileHover={{ y: -5 }}
       className={clsx(
-        "relative rounded-2xl p-6 flex flex-col h-full border transition-all duration-300",
+        "relative rounded-2xl p-6 flex flex-col h-full border transition-all duration-300 md:hover:-translate-y-1",
         isClaimed 
           ? "bg-secondary/5 border-secondary/30 shadow-[0_0_15px_rgba(16,185,129,0.1)]" 
           : "glassmorphism hover:border-primary/50 hover:shadow-[0_0_20px_rgba(79,70,229,0.15)]"

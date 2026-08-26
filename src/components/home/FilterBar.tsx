@@ -71,7 +71,7 @@ export function FilterBar({
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 sticky top-16 z-40 bg-background/95 backdrop-blur-md border-b border-border/50">
+    <div className="container mx-auto px-4 py-4 md:py-6 relative md:sticky top-0 md:top-16 z-40 bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm">
       <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center justify-between mb-6">
         
         {/* Search */}
@@ -90,7 +90,7 @@ export function FilterBar({
         </div>
 
         {/* Quick Toggles & Sort */}
-        <div className="flex flex-wrap items-center gap-4 w-full lg:w-auto">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap items-start sm:items-center gap-4 w-full lg:w-auto">
           <label className="flex items-center gap-2 cursor-pointer group">
             <div className="relative">
               <input 
@@ -136,10 +136,10 @@ export function FilterBar({
           </label>
 
           {/* Sort Dropdown */}
-          <div className="relative ml-auto lg:ml-0">
+          <div className="relative w-full sm:w-auto ml-0 mt-2 lg:mt-0 lg:ml-0">
             <button
               onClick={() => setIsSortOpen(!isSortOpen)}
-              className="flex items-center gap-2 px-4 py-2 border border-border rounded-lg bg-card hover:bg-muted transition-colors text-sm font-medium"
+              className="flex items-center justify-between sm:justify-start gap-2 px-4 py-2 border border-border rounded-lg bg-card hover:bg-muted transition-colors text-sm font-medium w-full sm:w-auto"
             >
               <SlidersHorizontal className="w-4 h-4" />
               <span>Sort: {SORT_OPTIONS.find(o => o.value === filters.sortBy)?.label}</span>
