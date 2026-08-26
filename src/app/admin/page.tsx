@@ -2,6 +2,8 @@ import { prisma } from "@/lib/prisma";
 import { Users, Mail, Calendar, Clock, Database } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminPage() {
   const subscribers = await prisma.subscriber.findMany({
     orderBy: {
