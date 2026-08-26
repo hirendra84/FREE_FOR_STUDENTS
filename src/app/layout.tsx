@@ -15,8 +15,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "StudentPerks India | Developer Benefits Directory",
-  description: "The Ultimate Student Developer Benefits Directory",
+  metadataBase: new URL('https://free-for-students.vercel.app'),
+  title: {
+    default: "StudentPerks India | Free Developer Tools & Cloud Credits",
+    template: "%s | StudentPerks India",
+  },
+  description: "The Ultimate Student Developer Benefits Directory. Unlock free cloud credits, AI coding assistants, domains, and design suites with your student ID.",
+  keywords: ["student perks", "developer tools", "github student developer pack", "free cloud credits", "student developer", "free AWS credits", "free domains for students", "education perks"],
+  authors: [{ name: "Hirendra", url: "https://hirendra.dev" }],
+  creator: "Hirendra",
+  publisher: "StudentPerks India",
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://free-for-students.vercel.app",
+    title: "StudentPerks India | Free Developer Tools & Cloud Credits",
+    description: "Unlock thousands of dollars in free developer tools, cloud credits, and design suites curated for students. 100% free with your student email.",
+    siteName: "StudentPerks India",
+    images: [
+      {
+        url: "/og-image.jpg", // Optional: Add an og-image.jpg to your public folder
+        width: 1200,
+        height: 630,
+        alt: "StudentPerks India - Free Developer Tools",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "StudentPerks India | Developer Benefits",
+    description: "Unlock free cloud credits, AI tools, and domains with your student email. The ultimate directory for student developers.",
+    creator: "@hirendra84",
+  },
   verification: {
     google: "Rv1sZd8TcIXxvnWV7a0J621nwy6324QErfNW9jmjZc8",
   },
