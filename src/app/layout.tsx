@@ -87,7 +87,7 @@ export default function RootLayout({
             gtag('config', 'G-5LSJSVNQ79');
           `}
         </Script>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
       </body>
