@@ -15,6 +15,20 @@ export type Perk = {
 
 export const PERKS_DATA: Perk[] = [
   {
+    id: "google-gemini-advanced",
+    name: "Google Gemini Advanced (12 Months Free)",
+    category: "AI & Machine Learning",
+    provider: "Google",
+    value: "$240/year",
+    isFree: true,
+    requiresCard: true,
+    tags: ["AI", "Gemini 1.5 Pro", "Research", "Coding Assistant"],
+    description: "Get 1 year of Gemini Advanced (Google One AI Premium plan) completely free. Includes access to Google's most capable AI model, 2TB cloud storage, and AI integrated into Docs & Gmail.",
+    verificationMethod: "Student ID (.edu / .ac.in)",
+    url: "https://gemini.google/students/?utm_source=gemini&utm_medium=paid_media&utm_campaign=students_pmax_dr-pmax_offer&gad_source=0&gad_campaignid=24164123494&eps=AHas8cDUBQRuRRF76rJnjPut9RD6YdalXi8w6Zg_40159BIAfUl9cOiJrCx9CHb9XXRBUT_4q0Rnj1cyDiHbERStSEf48sjtAR9BlmzXabZLozNnklfIATYSPA&gclid=CjwKCAjw48TUBhBREiwAK0GnQb4i8um1IbfQOtDfAXlq0jTy7C5LgPLRT1F017K5BxTPmgJ_Vls6kBoCMe0QAvD_BwE&gclsrc=aw.ds",
+    top20Rank: 1
+  },
+  {
     id: "github-student-pack",
     name: "GitHub Student Developer Pack",
     category: "Developer Tools & IDEs",
@@ -26,7 +40,7 @@ export const PERKS_DATA: Perk[] = [
     description: "The ultimate bundle unlocking 80+ developer tools, free domains, Sentry, DigitalOcean, and more.",
     verificationMethod: "Student ID / College Email",
     url: "https://education.github.com/pack",
-    top20Rank: 1
+    top20Rank: 2
   },
   {
     id: "github-copilot",
