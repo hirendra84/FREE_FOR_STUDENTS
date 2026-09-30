@@ -69,7 +69,7 @@ export function WelcomePopup() {
 
               <div className="w-full flex flex-col gap-3">
                 <a 
-                  href="https://chat.whatsapp.com/"
+                  href="https://chat.whatsapp.com/DC8icG0sd3WACULmqDuy9o"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleClose}
