@@ -308,5 +308,18 @@ export const PERKS_DATA: Perk[] = [
     verificationMethod: "SheerID",
     url: "https://www.perplexity.ai/pro",
     top20Rank: 20
+  },
+  {
+    id: "linkedin-premium-airtel",
+    name: "LinkedIn Premium (Airtel Thanks)",
+    category: "Career & Networking",
+    provider: "Airtel / LinkedIn",
+    value: "₹5,000+ value",
+    isFree: true,
+    requiresCard: false,
+    tags: ["LinkedIn Premium", "Career", "Networking", "India Only"],
+    description: "Get free LinkedIn Premium using the Airtel Thanks app. Available for active Airtel India users. Check the 'Thanks' or 'Rewards' section inside the app to claim.",
+    verificationMethod: "Airtel Thanks App (Indian Phone Number)",
+    url: "https://www.airtel.in/airtel-thanks-app",
   }
 ];
