@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, BellRing, Sparkles } from "lucide-react";
+import { X, BellRing, Sparkles, MessageCircle, Send } from "lucide-react";
 import Link from "next/link";
 
 export function WelcomePopup() {
@@ -68,13 +68,35 @@ export function WelcomePopup() {
               </p>
 
               <div className="w-full flex flex-col gap-3">
+                <a 
+                  href="https://chat.whatsapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleClose}
+                  className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-[#25D366] text-white font-bold hover:bg-[#25D366]/90 transition-transform active:scale-95"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  Join WhatsApp Community
+                </a>
+
+                <a 
+                  href="https://t.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleClose}
+                  className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-[#0088cc] text-white font-bold hover:bg-[#0088cc]/90 transition-transform active:scale-95"
+                >
+                  <Send className="w-5 h-5" />
+                  Join Telegram Channel
+                </a>
+
                 <Link 
                   href="/signup"
                   onClick={handleClose}
                   className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-foreground text-background font-bold hover:bg-foreground/90 transition-transform active:scale-95"
                 >
                   <BellRing className="w-5 h-5" />
-                  Sign Up for Alerts
+                  Sign Up for Email Alerts
                 </Link>
                 
                 <button
