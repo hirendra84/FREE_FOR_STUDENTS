@@ -91,12 +91,11 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <Script
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9011973120317258"
           crossOrigin="anonymous"
-          strategy="beforeInteractive"
-        />
+        ></script>
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-primary/30">
         <Script
