@@ -37,7 +37,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Dev", "All-in-One", "Domains", "Cloud", "Monitoring"],
-    description: "The ultimate bundle unlocking 80+ developer tools, free domains, Sentry, DigitalOcean, and more.",
+    description: "The ultimate bundle unlocking 80+ developer tools, free domains, Sentry, DigitalOcean, and more. This offer is especially valuable for students looking to boost their development workflow and save on costs.",
     verificationMethod: "Student ID / College Email",
     url: "https://education.github.com/pack",
     top20Rank: 2
@@ -51,7 +51,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["AI", "Coding Assistant", "IDE Extension"],
-    description: "AI-powered coding assistant inside VS Code, Visual Studio, and JetBrains IDEs.",
+    description: "AI-powered coding assistant inside VS Code, Visual Studio, and JetBrains IDEs. This offer is especially valuable for students looking to boost their development workflow and save on costs.",
     verificationMethod: "GitHub Student Pack",
     url: "https://education.github.com/pack",
     top20Rank: 2
@@ -65,7 +65,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["IDE", "Java", "Python", "Full-Stack", "C++"],
-    description: "Complete professional suite of desktop IDEs including IntelliJ IDEA, PyCharm Pro, and WebStorm.",
+    description: "Complete professional suite of desktop IDEs including IntelliJ IDEA, PyCharm Pro, and WebStorm. This offer is especially valuable for students looking to boost their development workflow and save on costs.",
     verificationMethod: "University Email (.ac.in / .edu) / GitHub Pack",
     url: "https://www.jetbrains.com/academy/student-pack/",
     top20Rank: 3
@@ -79,7 +79,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Cloud", "VMs", "OpenAI", "Databases", "Serverless"],
-    description: "$100 cloud credits valid for 12 months + 25+ always-free services without requiring a credit card.",
+    description: "$100 cloud credits valid for 12 months + 25+ always-free services without requiring a credit card. This offer is especially valuable for students looking to boost their development workflow and save on costs.",
     verificationMethod: "College Email (.ac.in)",
     url: "https://azure.microsoft.com/en-in/free/students",
     top20Rank: 4
@@ -93,7 +93,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Design", "UI/UX", "Wireframing", "Dev Mode"],
-    description: "Full Figma Professional tier with unlimited files, team design systems, and Dev Mode.",
+    description: "Full Figma Professional tier with unlimited files, team design systems, and Dev Mode. This offer is especially valuable for students looking to boost their development workflow and save on costs.",
     verificationMethod: "SheerID / College Email",
     url: "https://www.figma.com/education/apply",
     top20Rank: 5
@@ -107,7 +107,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: true,
     tags: ["VPS", "Cloud", "ARM Compute", "Database"],
-    description: "Permanent free VPS: 4 ARM cores + 24GB RAM, 200GB storage, and 2 autonomous databases.",
+    description: "Permanent free VPS: 4 ARM cores + 24GB RAM, 200GB storage, and 2 autonomous databases. This offer is especially valuable for students looking to boost their development workflow and save on costs.",
     verificationMethod: "Credit/Debit Card Validation",
     url: "https://www.oracle.com/cloud/free/",
     top20Rank: 6
@@ -122,7 +122,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: true,
     tags: ["VPS", "Cloud", "Kubernetes", "Database"],
-    description: "$200 in platform cloud credit valid for 1 year (Droplets, App Platform, Managed PostgreSQL/MySQL/Redis).",
+    description: "$200 in platform cloud credit valid for 1 year (Droplets, App Platform, Managed PostgreSQL/MySQL/Redis). This generous DigitalOcean offering empowers student developers to host their personal projects, scale applications, and learn cloud architecture without incurring massive out-of-pocket expenses. It's a fundamental resource for backend development and deployment.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://www.digitalocean.com",
     top20Rank: 7
@@ -136,7 +136,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Database", "NoSQL", "Certification"],
-    description: "$50 in Atlas database credits, MongoDB Compass, and an official MongoDB Certified Developer Associate Exam Voucher.",
+    description: "$50 in Atlas database credits, MongoDB Compass, and an official MongoDB Certified Developer Associate Exam Voucher. Ideal for students building modern full-stack JavaScript applications (MERN stack), this perk not only provides reliable cloud database hosting but also helps you get officially certified by MongoDB, significantly boosting your resume.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://www.mongodb.com/students",
     top20Rank: 8
@@ -150,7 +150,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["React", "TypeScript", "Node.js", "Next.js"],
-    description: "6 months of 100% free access to all courses, workshops, and learning paths.",
+    description: "6 months of 100% free access to all courses, workshops, and learning paths. Frontend Masters offers premium video courses taught by industry experts on advanced JavaScript, React, CSS, and Node.js. For students aiming to become professional frontend or full-stack engineers, this is an invaluable resource to master modern web technologies.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://frontendmasters.com/welcome/github-student-pack/",
     top20Rank: 9
@@ -164,7 +164,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Notes", "Planning", "Portfolio"],
-    description: "Free Notion Plus Plan with unlimited blocks, unlimited file uploads, 30-day page version history.",
+    description: "Free Notion Plus Plan with unlimited blocks, unlimited file uploads, 30-day page version history. Notion is the ultimate workspace for students to organize lecture notes, plan semesters, collaborate on group projects, and build personal portfolios. The Plus plan removes all limitations, allowing for endless organization.",
     verificationMethod: "University Email (.ac.in / .edu)",
     url: "https://www.notion.so/product/notion-for-education",
     top20Rank: 10
@@ -178,7 +178,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Domain", "SSL", "Hosting"],
-    description: "1 free .me domain name registration for 1 year + 1 free 1-year PositiveSSL certificate.",
+    description: "1 free .me domain name registration for 1 year + 1 free 1-year PositiveSSL certificate. Establishing a personal brand is crucial for students entering the tech industry. Namecheap provides the perfect starting point to host a personal portfolio, tech blog, or resume website with a professional .me domain and secure SSL.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://nc.me",
     top20Rank: 11
@@ -192,7 +192,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["DSA", "System Design", "Interview"],
-    description: "6 months of free access to 60+ interactive, text-based tracks (DSA, System Design, Full-Stack).",
+    description: "6 months of free access to 60+ interactive, text-based tracks (DSA, System Design, Full-Stack). Educative's interactive coding environments are perfect for visual learners preparing for software engineering interviews. By practicing data structures and algorithms hands-on, students can confidently tackle technical assessments from top tech companies.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://www.educative.io/github-students",
     top20Rank: 12
@@ -206,7 +206,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["GPU", "Deep Learning", "Data Science"],
-    description: "30 hours of free Nvidia P100 / T4 GPU compute + 20 hours of TPU v3-8 compute per week.",
+    description: "30 hours of free Nvidia P100 / T4 GPU compute + 20 hours of TPU v3-8 compute per week. For students interested in AI, machine learning, and data science, Kaggle provides free access to powerful hardware to train deep learning models, participate in data science competitions, and build impressive ML portfolios.",
     verificationMethod: "SMS Verification",
     url: "https://www.kaggle.com",
     top20Rank: 13
@@ -220,7 +220,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["API", "Testing", "Certification"],
-    description: "Access to Postman Academy, interactive API modules, and Postman Student Expert digital badge.",
+    description: "Access to Postman Academy, interactive API modules, and Postman Student Expert digital badge. APIs are the backbone of modern software. Postman's student program teaches you how to test, document, and interact with APIs, culminating in a highly recognizable digital badge that showcases your practical backend integration skills.",
     verificationMethod: "University Email",
     url: "https://academy.postman.com/page/students",
     top20Rank: 14
@@ -234,7 +234,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["APM", "QA", "Monitoring"],
-    description: "Sentry Team Plan quota (50,000 errors, 100,000 performance transactions).",
+    description: "Sentry Team Plan quota (50,000 errors, 100,000 performance transactions). Learning to debug and monitor applications in production is a crucial software engineering skill. Sentry provides students with enterprise-grade error tracking and performance monitoring, ensuring your side projects run smoothly and professionally.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://sentry.io/welcome/github-students/",
     top20Rank: 15
@@ -248,7 +248,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Office", "OneDrive", "Storage"],
-    description: "Full web & desktop Office apps + 1 TB OneDrive Cloud Storage.",
+    description: "Full web & desktop Office apps + 1 TB OneDrive Cloud Storage. Microsoft 365 Education ensures students have the essential productivity software for writing assignments, creating presentations, and securely backing up academic files in the cloud with a massive 1TB of storage.",
     verificationMethod: "University Email (.ac.in)",
     url: "https://www.microsoft.com/en-in/education/products/office",
     top20Rank: 16
@@ -262,7 +262,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Security", "Passwords", "SSH"],
-    description: "1 full year free of 1Password password manager with integrated developer CLI tools and SSH key manager.",
+    description: "1 full year free of 1Password password manager with integrated developer CLI tools and SSH key manager. Security is paramount for developers. 1Password not only secures your online accounts but also provides advanced tools for managing API keys, SSH keys, and environment variables securely during development.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://www.1password.com",
     top20Rank: 17
@@ -276,7 +276,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["DevOps", "Monitoring", "Logs"],
-    description: "2-year free license for Datadog Pro (monitoring up to 10 servers/nodes, custom metrics).",
+    description: "2-year free license for Datadog Pro (monitoring up to 10 servers/nodes, custom metrics). Datadog gives students hands-on experience with industry-standard DevOps and cloud observability tools. Monitor your servers, trace application performance, and visualize metrics on professional dashboards.",
     verificationMethod: "GitHub Student Developer Pack",
     url: "https://www.datadoghq.com",
     top20Rank: 18
@@ -290,7 +290,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["Cloud", "Labs", "Certifications"],
-    description: "Free access to hands-on cloud labs + 50% discount vouchers on AWS Certification Exams.",
+    description: "Free access to hands-on cloud labs + 50% discount vouchers on AWS Certification Exams. AWS Educate is the perfect launchpad for a career in cloud computing. It offers self-paced learning paths and significantly reduces the cost of obtaining industry-recognized AWS certifications like Cloud Practitioner or Solutions Architect.",
     verificationMethod: "Academic email (.ac.in)",
     url: "https://aws.amazon.com/education/awseducate/",
     top20Rank: 19
@@ -304,7 +304,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: false,
     requiresCard: true,
     tags: ["AI Research", "Claude 3.5", "GPT-4o"],
-    description: "50% discount on Perplexity Pro (unlimited deep research queries).",
+    description: "50% discount on Perplexity Pro (unlimited deep research queries). Perplexity Pro is a game-changer for academic research and studying. It utilizes top-tier AI models to synthesize information, cite credible sources, and provide in-depth answers, saving students countless hours of manual web searching.",
     verificationMethod: "SheerID",
     url: "https://www.perplexity.ai/pro",
     top20Rank: 20
@@ -318,7 +318,7 @@ export const PERKS_DATA: Perk[] = [
     isFree: true,
     requiresCard: false,
     tags: ["LinkedIn Premium", "Career", "Networking", "India Only"],
-    description: "Get free LinkedIn Premium using the Airtel Thanks app. Available for active Airtel India users. Check the 'Thanks' or 'Rewards' section inside the app to claim.",
+    description: "Get free LinkedIn Premium using the Airtel Thanks app. Available for active Airtel India users. Check the 'Thanks' or 'Rewards' section inside the app to claim. LinkedIn Premium is essential for job-seeking students, unlocking advanced networking features, insights into job applicants, and direct InMail access to recruiters.",
     verificationMethod: "Airtel Thanks App (Indian Phone Number)",
     url: "https://www.airtel.in/airtel-thanks-app",
   }

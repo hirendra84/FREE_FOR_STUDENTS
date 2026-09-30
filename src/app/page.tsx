@@ -250,6 +250,29 @@ export default function Home() {
         onClose={() => setIsModalOpen(false)} 
       />
       <WelcomePopup />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": PERKS_DATA.map((perk, index) => ({
+              "@type": "ListItem",
+              "position": index + 1,
+              "item": {
+                "@type": "Product",
+                "name": perk.name,
+                "description": perk.description,
+                "url": perk.url,
+                "brand": {
+                  "@type": "Brand",
+                  "name": perk.provider
+                }
+              }
+            }))
+          })
+        }}
+      />
     </>
   );
 }
