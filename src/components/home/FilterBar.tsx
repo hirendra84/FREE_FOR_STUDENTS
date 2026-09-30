@@ -71,7 +71,7 @@ export function FilterBar({
   };
 
   return (
-    <div className="container mx-auto px-4 py-4 md:py-6 relative md:sticky top-0 md:top-16 z-40 bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm">
+    <div className="container mx-auto px-4 py-4 md:py-6 relative">
       <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center justify-between mb-6">
         
         {/* Search */}

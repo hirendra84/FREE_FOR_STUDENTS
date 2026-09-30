@@ -23,7 +23,7 @@ export function Header({
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 w-full glassmorphism border-b">
+    <header className="relative z-50 w-full glassmorphism border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="bg-primary/20 p-2 rounded-lg text-primary">
