@@ -21,7 +21,19 @@ export const metadata: Metadata = {
     template: "%s | StudentPerks India",
   },
   description: "The Ultimate Student Developer Benefits Directory. Unlock free cloud credits, AI coding assistants, domains, and design suites with your student ID.",
-  keywords: ["student perks", "developer tools", "github student developer pack", "free cloud credits", "student developer", "free AWS credits", "free domains for students", "education perks"],
+  keywords: [
+    "student developer perks india", 
+    "free developer tools for students", 
+    "github student developer pack", 
+    "free cloud credits for students", 
+    "free domains for students", 
+    "azure for students india", 
+    "aws educate india",
+    "linkedin premium free for students",
+    "gemini advanced free for students",
+    "free programming tools",
+    "student discounts india"
+  ],
   authors: [{ name: "Hirendra", url: "https://hirendra.dev" }],
   creator: "Hirendra",
   publisher: "StudentPerks India",
@@ -87,6 +99,24 @@ export default function RootLayout({
             gtag('config', 'G-5LSJSVNQ79');
           `}
         </Script>
+        <Script
+          id="schema-markup"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "StudentPerks India",
+              "url": "https://free-for-students.vercel.app",
+              "description": "Unlock free developer tools, cloud credits, and design suites curated for students in India.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "StudentPerks India",
+                "url": "https://free-for-students.vercel.app"
+              }
+            })
+          }}
+        />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
