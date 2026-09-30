@@ -246,14 +246,38 @@
 
 ---
 
+### #21 — Google Gemini Advanced
+| | |
+|---|---|
+| **Provider** | Google |
+| **Value** | $240/year |
+| **Credit Card Required?** | ❌ No |
+| **What You Get** | **12 Months of Google Gemini Advanced** (AI Premium), 2TB of Cloud Storage, and access to Gemini 1.5 Pro directly integrated into Workspace apps. |
+| **How to Verify** | Valid student domain (.edu / .ac.in) |
+| **🔗 Claim It** | [gemini.google/students](https://gemini.google/students/) |
+
+---
+
+### #22 — LinkedIn Premium (Airtel Thanks)
+| | |
+|---|---|
+| **Provider** | Airtel / LinkedIn |
+| **Value** | ₹5,000+ value |
+| **Credit Card Required?** | ❌ No |
+| **What You Get** | **Free LinkedIn Premium** using the Airtel Thanks app. Available exclusively for active Airtel India mobile users. |
+| **How to Verify** | Airtel Thanks App (Indian Phone Number) |
+| **🔗 Claim It** | [airtel.in/airtel-thanks-app](https://www.airtel.in/airtel-thanks-app) |
+
+---
+
 ## 📊 Quick Stats
 
 | Metric | Value |
 |---|---|
-| 💰 **Total Value** | **$4,500+/year** in free tools |
-| 🛠️ **Tools Covered** | 20+ premium developer tools |
-| 🆓 **No Credit Card** | 16 out of 20 perks |
-| 🇮🇳 **India Verified** | Works with `.ac.in` emails |
+| 💰 **Total Value** | **$5,000+/year** in free tools |
+| 🛠️ **Tools Covered** | 22+ premium developer tools |
+| 🆓 **No Credit Card** | 18 out of 22 perks |
+| 🇮🇳 **India Verified** | Works with `.ac.in` emails & Indian Phone Numbers |
 
 ---
 
@@ -263,10 +287,11 @@
 |---|---|
 | ☁️ **Cloud & Infrastructure** | Azure, Oracle Cloud, DigitalOcean, Namecheap, Datadog, AWS Educate |
 | 🛠️ **Developer Tools & IDEs** | GitHub Student Pack, JetBrains, Postman, Sentry |
-| 🤖 **AI & Machine Learning** | GitHub Copilot, Kaggle GPU/TPU, Perplexity Pro |
+| 🤖 **AI & Machine Learning** | GitHub Copilot, Kaggle GPU/TPU, Perplexity Pro, Google Gemini Advanced |
 | 🎨 **Design & Creative** | Figma Professional |
 | 📚 **Education & Certifications** | MongoDB, Frontend Masters, Educative.io |
 | 📝 **Productivity & Office** | Notion, Microsoft 365 |
+| 💼 **Career & Networking** | LinkedIn Premium (Airtel Thanks) |
 | 🔒 **Cybersecurity** | 1Password |
 
 ---
