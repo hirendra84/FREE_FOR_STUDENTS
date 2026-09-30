@@ -80,7 +80,7 @@ export function WelcomePopup() {
                 </a>
 
                 <a 
-                  href="https://t.me/"
+                  href="https://t.me/+gn6eKVk821dmNjc1"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleClose}
