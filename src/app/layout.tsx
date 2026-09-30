@@ -62,6 +62,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "Rv1sZd8TcIXxvnWV7a0J621nwy6324QErfNW9jmjZc8",
+    other: {
+      "google-adsense-account": "ca-pub-9011973120317258",
+    },
   },
   robots: {
     index: true,
@@ -87,14 +90,15 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-primary/30">
-        {/* Google AdSense */}
+      <head>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9011973120317258"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
+      </head>
+      <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-primary/30">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-5LSJSVNQ79"
           strategy="afterInteractive"
